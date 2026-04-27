@@ -11,3 +11,7 @@ plats[i].style.display='block';
 }
 
 }
+
+function reservation(){
+alert("Votre réservation a été enregistrée avec succès !");
+}

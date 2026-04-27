@@ -1,12 +1,20 @@
+/* =========================
+   BASE
+========================= */
+
 body{
 margin:0;
 font-family:Arial;
-background:#FFF8F0; /* crème */
+background:#FFF8F0;
 color:#3E2723;
 }
 
+/* =========================
+   HEADER + NAVIGATION
+========================= */
+
 header{
-background:#7B1E3A; /* bordeaux */
+background:#7B1E3A;
 color:white;
 padding:20px;
 text-align:center;
@@ -14,7 +22,7 @@ text-align:center;
 
 nav a{
 text-decoration:none;
-color:#000000; /* doré */
+color:#000;
 font-weight:bold;
 margin:15px;
 }
@@ -23,16 +31,24 @@ nav a:hover{
 color:#FFF3B0;
 }
 
+/* =========================
+   HERO SECTION
+========================= */
+
 .hero{
 background:url('restaurant-bg.jpg');
 background-size:cover;
 padding:100px;
 text-align:center;
-color:rgb(8, 8, 8);
+color:#000;
 }
 
+/* =========================
+   BUTTONS
+========================= */
+
 button{
-background:#D4AF37; /* or */
+background:#D4AF37;
 color:white;
 border:none;
 padding:12px 20px;
@@ -44,6 +60,10 @@ button:hover{
 background:#B8860B;
 }
 
+/* =========================
+   SECTIONS GÉNÉRALES
+========================= */
+
 .presentation,
 .gallery,
 .avis,
@@ -53,6 +73,10 @@ background:#B8860B;
 padding:40px;
 text-align:center;
 }
+
+/* =========================
+   IMAGES / GALERIE
+========================= */
 
 .photos{
 display:flex;
@@ -66,6 +90,10 @@ flex-wrap:wrap;
 width:300px;
 border-radius:10px;
 }
+
+/* =========================
+   MENU
+========================= */
 
 .menu-container{
 display:flex;
@@ -85,6 +113,10 @@ border-radius:15px;
 border-top:5px solid #D4AF37;
 }
 
+/* =========================
+   AVIS CLIENTS
+========================= */
+
 .card{
 background:#FFFDF8;
 padding:20px;
@@ -94,12 +126,16 @@ box-shadow:0 0 8px gray;
 border-left:5px solid #7B1E3A;
 }
 
+/* =========================
+   FORMULAIRES
+========================= */
+
 form{
 max-width:500px;
 margin:auto;
 }
 
-input,textarea{
+input, textarea{
 width:100%;
 padding:12px;
 margin:10px 0;
@@ -107,12 +143,10 @@ border:1px solid #D4AF37;
 border-radius:6px;
 }
 
-footer{
-background:#3E2723;
-color:#FFD700;
-padding:15px;
-text-align:center;
-}
+/* =========================
+   COORDONNÉES
+========================= */
+
 .coordonnees{
 text-align:center;
 max-width:500px;
@@ -121,4 +155,21 @@ padding:30px;
 background:white;
 border-radius:15px;
 box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+background:#3E2723;
+color:#FFD700;
+padding:15px;
+text-align:center;
+}
+.titre-centre{
+text-align:center;
+color:#7B1E3A;
+font-size:32px;
+margin:30px 0;
 }

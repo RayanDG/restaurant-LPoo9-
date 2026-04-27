@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Menu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Notre Menu</h1>
+<nav>
+<a href="index.html">Accueil</a>
+<a href="menu.html">Menu</a>
+<a href="horaires.html">Horaires</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="filter">
+<button onclick="filterSelection('all')">Tous</button>
+<button onclick="filterSelection('entree')">Entrées</button>
+<button onclick="filterSelection('plat')">Plats</button>
+<button onclick="filterSelection('dessert')">Desserts</button>
+</section>
+
+<section class="menu-container">
+
+<div class="menu-item entree">
+<img src="salade.jpg">
+<h3>Salade César</h3>
+<p>Salade fraîche au poulet</p>
+<span>18 DT</span>
+</div>
+
+<div class="menu-item plat">
+<img src="s.jpg">
+<h3>Pâtes Fruits de Mer</h3>
+<p>Pâtes sauce crémeuse</p>
+<span>35 DT</span>
+</div>
+
+<div class="menu-item plat">
+<img src="x.jpg">
+<h3>Grillade Mixte</h3>
+<p>Viandes grillées</p>
+<span>42 DT</span>
+</div>
+
+<div class="menu-item dessert">
+<img src="Tiramisu.jpg">
+<h3>Tiramisu</h3>
+<p>Dessert italien</p>
+<span>15 DT</span>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

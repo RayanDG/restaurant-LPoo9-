@@ -1,0 +1,124 @@
+body{
+margin:0;
+font-family:Arial;
+background:#FFF8F0; /* crème */
+color:#3E2723;
+}
+
+header{
+background:#7B1E3A; /* bordeaux */
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+text-decoration:none;
+color:#000000; /* doré */
+font-weight:bold;
+margin:15px;
+}
+
+nav a:hover{
+color:#FFF3B0;
+}
+
+.hero{
+background:url('restaurant-bg.jpg');
+background-size:cover;
+padding:100px;
+text-align:center;
+color:rgb(8, 8, 8);
+}
+
+button{
+background:#D4AF37; /* or */
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#B8860B;
+}
+
+.presentation,
+.gallery,
+.avis,
+.hours,
+.contact-form,
+.reservation{
+padding:40px;
+text-align:center;
+}
+
+.photos{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.photos img,
+.menu-item img{
+width:300px;
+border-radius:10px;
+}
+
+.menu-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+padding:30px;
+}
+
+.menu-item{
+background:white;
+padding:20px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+width:300px;
+text-align:center;
+border-radius:15px;
+border-top:5px solid #D4AF37;
+}
+
+.card{
+background:#FFFDF8;
+padding:20px;
+margin:20px auto;
+width:400px;
+box-shadow:0 0 8px gray;
+border-left:5px solid #7B1E3A;
+}
+
+form{
+max-width:500px;
+margin:auto;
+}
+
+input,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #D4AF37;
+border-radius:6px;
+}
+
+footer{
+background:#3E2723;
+color:#FFD700;
+padding:15px;
+text-align:center;
+}
+.coordonnees{
+text-align:center;
+max-width:500px;
+margin:40px auto;
+padding:30px;
+background:white;
+border-radius:15px;
+box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
